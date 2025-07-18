@@ -1,6 +1,7 @@
 # 🧠 AI Command (aicmd)
 
 **`aicmd`** is a smart command-line assistant powered by OpenRouter's free DeepSeek AI API. Ask natural-language questions and instantly get detailed Linux command suggestions — with bullet-point explanations for every part of the command!
+For the API key, you can generate a free DeepSeek API key here --> https://openrouter.ai/deepseek/deepseek-chat-v3-0324:free
 
 ---
 
