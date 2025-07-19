@@ -19,6 +19,8 @@ For the API key, you can generate a free DeepSeek API key here --> https://openr
 ## 🚀 Installation
 
 ```bash
+git clone https://github.com/H34TB145T/ai-cmd.git
+cd ai-cmd
 chmod +x install.sh
 ./install.sh
 ```
