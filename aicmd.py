@@ -17,6 +17,7 @@ else:
     sys.exit(1)
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
+# you can put and try different DeepSeek models from OpenRouter here
 #MODEL = "deepseek/deepseek-chat-v3-0324:free"
 MODEL = "deepseek/deepseek-chat:free"
 
@@ -40,11 +41,11 @@ def copy_to_clipboard(text):
 
 def extract_command_and_explanation(text):
     lines = text.strip().split("\n")
-    command = ""
-    explanation = ""
+    command =""
+    explanation =""
 
     for line in lines:
-        stripped = line.strip()
+        stripped =line.strip()
         if not command and stripped:
             command = stripped
         elif not explanation and stripped != command:
@@ -141,6 +142,8 @@ def main():
 
     except Exception as e:
         print(f"{RED} Error: {str(e)}{RESET}")
+
+
 
 if __name__ == "__main__":
     main()
