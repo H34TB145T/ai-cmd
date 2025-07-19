@@ -17,7 +17,8 @@ else:
     sys.exit(1)
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "deepseek/deepseek-chat-v3-0324:free"
+#MODEL = "deepseek/deepseek-chat-v3-0324:free"
+MODEL = "deepseek/deepseek-chat:free"
 
 YELLOW = "\033[1;33m"
 GREEN = "\033[0;32m"
