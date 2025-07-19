@@ -26,7 +26,7 @@ chmod +x install.sh
 ```
 
 - You will be asked to enter your OpenRouter API key.
-- If you leave it blank, a default key will be used (if configured in the script).
+- If you leave it blank, a default key will be used (but not recommended).
 
 ✅ After install, you can run:
 ```bash
@@ -75,9 +75,10 @@ This removes:
 
 ## 🛠 Dependencies
 
-Only one dependency is required:
+Only two dependency is required:
 ```bash
 pip install requests
+apt install xclip
 ```
 
 This is handled automatically by `install.sh`.
@@ -105,8 +106,3 @@ aicmd ask "how to find and delete all .log files older than 7 days"
 - Bash + Python 3
 
 ---
-
-## 🙋 Feedback
-
-If you like this project or find a bug, visit:  
-👉 **[https://github.com/H34TB145T](https://github.com/H34TB145T)**
