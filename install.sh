@@ -2,7 +2,7 @@
 
 echo "📦 Installing AI CMD..."
 read -p "🔑 Enter your OpenRouter API key (leave blank to use default): " api_key
-default_key="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"
+default_key="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"
 final_key=${api_key:-$default_key}
 echo "Installing xclip..."
 sudo apt install xclip
